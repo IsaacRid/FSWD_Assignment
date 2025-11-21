@@ -1,4 +1,5 @@
 const users = require('../controllers/user.server.controllers.js');
+const authorise = require('../lib/authentication.js');
 
 module.exports = function (app) {
     app.route('/users')
